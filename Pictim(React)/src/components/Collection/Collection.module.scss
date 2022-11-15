@@ -1,0 +1,32 @@
+.collection{
+  max-width: 470px;
+  background-color: rgba(0, 0, 0, 0);
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  padding: 15px;
+  transition: .3s ease-in-out;
+  cursor: pointer;
+  &:hover{
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+  }
+
+  img{
+    height: 280px;
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+
+    @media (max-width: 380px) {
+      height: 230px
+    }
+  }
+
+  h1{
+    font-size: 25px;
+    color: rgb(25, 25, 25);
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+}
